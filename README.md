@@ -1,11 +1,11 @@
 # Data Lovers
 
-##Hora Pokemon
+## Hora Pokemon
 
 Descripción para el usuario.
 Hora pokemon es una aplicación que te ayuda a conocer los datos mas relevantes de cada pokemon en el momento que lo necesites. Datos como caramelos necesarios para la evolución o la hora a la que es mas probable encontrar y atrapar a un pokemon en específico se encontrarán a tu alcance de manera fácil, rápida y sencilla, sin necesidad de usar algún buscador.
 
-##Definición del producto
+## Definición del producto
 
 Para tener un conocimiento mayor sobre las características generales del juego Pokemon Go, realizamos una entrevista a un usuario del mismo. Las preguntas estuvieron enfocadas a aclarar nuestras dudas personales respecto al juego y a la data proporcionada para el proyecto, así como a su experiencia con la aplicación. De esta entrevista definimos que el producto estaría enfocados exclusivamente a jugadores de Pokemon Go, sin importar si con nuevos o tienen mas tiempo jugando.
 
@@ -15,15 +15,24 @@ Al momento del corte contamos con 50 encuestas, que nos arrojaron los siguientes
 
 Mas de la mitad de los usuarios tienen entre 21 y 30 años, en menor medida hay usuarios mas jóvenes o mas grandes.
 
+![edades de los usuarios](https://ibb.co/RTkYQxn)
+
 Los motivos para seguir jugando son muy variados y tienen que ver con los estilos de vida y edades que poseen cada uno, Sin embargo hay coincidencia con que el juego es una motivación para salir a caminar o convivir con otras personas. por otro lado expresaron que es la adicción a completar su Pokedex y capturar la myor cantidad de pokemones posibles.
 
 Los 3 principales datos que les interesan mas de un pokemon fueron: la imagen, el nombre y la hora en que es mas probable encontrarlo. Ya que esto les ayuda a capturar pokemones menos comunes o difíciles de encontrar. El siguiente dato que les pareció útil fue el número de caramelos necesarios para hacer evolucionar a sus pokemones. Los demás datos carecieron de importancia y casi no fueron seleccionados. 
+
+![grafica de datos](https://ibb.co/TMgBtkw)
+
 La última pregunta que nos ayudaría a definir el diseño de la aplicación, nos arrojó que no estaban interesados en visualizar las siguientes evoluciones por lo que tuvimos que hacer otro diseño.
 
-##Prototipo
+![grafica del diseño](https://ibb.co/HFxcPgT)
+
+## Prototipo
 
 Teniendo en cuenta lo anterior podemos definir que el usuario espera una aplicación sencilla que contenga estos 3 datos principalmente, por lo que definimos el nombre como Hora Pokemon, para hacer mas sencilla su experiencia, haciendo evidente que uno de los datos principales sería la hora de aparición de los pokemones. 
 El producto está pensado que el usuario pueda acceder a la plataforma en el momento que desee o necesite obtener información específica, por lo que el prototipo fue pensado con un diseño sencillo que no distraiga o confunda a los jugadores.
+
+![prototipo de baja fidelidad](https://ibb.co/TmkpZ55)
 
 
 ## Índice
