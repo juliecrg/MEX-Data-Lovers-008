@@ -34,11 +34,17 @@ El producto está pensado que el usuario pueda acceder a la plataforma en el mom
 
 ![prototipo de baja fidelidad](https://raw.githubusercontent.com/MontseRV/MEX-Data-Lovers-008/master/images/hola.jpg)
 
-## Historias de usuario
+
+### Historia de usuario 
+
+1: Filtrar por nombre. 
+
+El usuario quiere encontrar la información de un Pokémon en específico. Sabe el nombre del Pokémon y no quiere ver todas las tarjetas para encontrar la información, así que, necesita de un buscador donde pueda teclear el nombre. El usuario va a buscar en minúsculas el nombre y espera obtener la información del Pokémon que él ha tecleado. 
 
 2.- Filtrar por tipo
 
 El usuario va a tener la opción de filtrar por tipo con un menu tipo select, donde tienen los 18 tipos pokemon para escoger, seleccionan uno y el producto  les muestra todos lo pokemones que coinciden con ese tipo en la parte de abajo con el mismo formato de tarjetas.
+
 
 
 ## Índice

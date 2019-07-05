@@ -2,27 +2,52 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Segundo meta: La vista de compatibilidad le permite al usuario
+       o al navegador establecer el modo de compatibilidad, 
+       por defecto el navegador identifica la vista de compatibilidad
+        por medio de la versión del navegador establecida en el User Agent. -->
     <title>Hora Pokemon</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://use.typekit.net/qsv3ymq.css">
   </head>
   <body>
+
+
+                <!-- Seccion imagen -->
+                    <section class= "first">
+                    <section class= "toallthesections"> <img src="pokeball.png" class= "imageP" ></section>
+                    </section>
+                    
+               <!-- Seccion Tipografia1 -->
+                    <section class= "toallthesections">
+                      <section class= "textOne"> HORA: <span id="datetime"></span> </section>
+                      <section class= "textOne"> Filtrar por: </section>
+                    </section>
+
+
+                <!-- Seccion Botones -->
+                <section class= "toallthesections">
+                    <section class= "Boton1"> <button id="ButtonA" class="btn" type="button"> Nombre </button> </section>
+                    <section class= "Boton2"> <button id="ButtonB" class="btn" type="button"> A-Z </button> </section>
+                    <section  class="Boton3" style="width:200px;">
+                      
+                      <select id="type-list">
+                      </select>
+                    </section>
+                  </section>
+                
+                  <section class= "boxcontainer">
+                  <section class="boxPokemon" id= "tarjetas-pokemon">                  
+                    </section>
+                  </section>
+
                 <div id= "seccion-principal">
                 <form>
-                      <center>
+                     
 
-                    <img src="pokeball.png" height="42" width="42">    
-                  <!-- TEXTO-->
-                    <p class= textOne> 1:51 P.M. </p>  
-                     <p class= textOne> Filtrar por: </p>
-                  <!-- BOTON NOMBRE --> 
-                  <p>Nombre del Pokemon:</p>
-                  <p><input type="text" id="input-pokemon"> </p>
-                  <p><button type="button" id="boton-nombre">BUSCAR</button></p> 
-
-                  <!-- BOTON A-Z -->  
-                  <button id="ButtonB" class="btn" type="button"> A-Z </button> 
-
+                  
                    <!-- BOTON TIPO -->  
                    <Select id="type-list">
                     <option value="Grass">Hierba</option>
@@ -46,13 +71,14 @@
                    </Select>
 
                    <!-- CAJA -->  
-                   <div id= "tarjetas-pokemon" > 
+                   <select id= "tarjetas-pokemon" > 
                   
-                   </div>
+                   </select>
                    
-                      </center>   
+                        
                 <form>           
                 </div>
+
 
                 <div id="resultado-nombre">
 
