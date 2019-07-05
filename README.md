@@ -34,6 +34,12 @@ El producto está pensado que el usuario pueda acceder a la plataforma en el mom
 
 ![prototipo de baja fidelidad](https://raw.githubusercontent.com/MontseRV/MEX-Data-Lovers-008/master/images/hola.jpg)
 
+## Historias de usuario
+
+2.- Filtrar por tipo
+
+El usuario va a tener la opción de filtrar por tipo con un menu tipo select, donde tienen los 18 tipos pokemon para escoger, seleccionan uno y el producto  les muestra todos lo pokemones que coinciden con ese tipo en la parte de abajo con el mismo formato de tarjetas.
+
 
 ## Índice
 

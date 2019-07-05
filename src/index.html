@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://use.typekit.net/qsv3ymq.css">
   </head>
   <body>
-
+                <div id= "seccion-principal">
                 <form>
                       <center>
 
@@ -16,11 +16,35 @@
                     <p class= textOne> 1:51 P.M. </p>  
                      <p class= textOne> Filtrar por: </p>
                   <!-- BOTON NOMBRE --> 
-                   <button id="ButtonA" class="btn" type="button"> Nombre </button> 
+                  <p>Nombre del Pokemon:</p>
+                  <p><input type="text" id="input-pokemon"> </p>
+                  <p><button type="button" id="boton-nombre">BUSCAR</button></p> 
+
                   <!-- BOTON A-Z -->  
                   <button id="ButtonB" class="btn" type="button"> A-Z </button> 
+
                    <!-- BOTON TIPO -->  
-                   <button id="ButtonC" class="btn" type="button"> Tipo </button>
+                   <Select id="type-list">
+                    <option value="Grass">Hierba</option>
+                    <option value="Poison">Veneno</option>
+                    <option value="Fire">Fuego</option>
+                    <option value="Flying">Volador</option>
+                    <option value="Water">Agua</option>
+                    <option value="Bug">Insecto</option>
+                    <option value="Normal">Normal</option>
+                    <option value="Ground">Tierra</option>
+                    <option value="Rock">Roca</option>
+                    <option value="Steel">Acero</option>
+                    <option value="Ice">Hielo</option>
+                    <option value="Electric">Electrico</option>
+                    <option value="Dragon">Dragon</option>
+                    <option value="Ghost">Fantasma</option>
+                    <option value="Psychic">Psíquico</option>
+                    <option value="Fighting">Peleador</option>
+                    <option value="Dark">Oscuro</option>
+                    <option value="Fairy">Hada</option>
+                   </Select>
+
                    <!-- CAJA -->  
                    <div id= "tarjetas-pokemon" > 
                   
@@ -28,12 +52,14 @@
                    
                       </center>   
                 <form>           
+                </div>
 
+                <div id="resultado-nombre">
 
+                </div>
     <div id="root"></div>
     <!-- <script src="./data/injuries/injuries.js"></script> -->
      <script src="./data/pokemon/pokemon.js"></script> 
-
     <!-- <script src="./data/steam/steam.js"></script> -->
     <!-- <script src="./data/worldbank/worldbank.js"></script> -->
     <!-- <script src="./data/lol/lol.js"></script> -->
