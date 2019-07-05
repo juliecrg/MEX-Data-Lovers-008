@@ -5,7 +5,7 @@ const tarjetas =document.getElementById("tarjetas-pokemon")
 
 const imprimData = (data) => { //variable para manipular la data
     let str = "";
-    data.forEach(element =>{ //foeEach sirve para recorrer los arreglos dentro de un objeto
+    data.forEach(element =>{ //forEach sirve para recorrer los arreglos dentro de un objeto
         str += `<div class = "PokemonBox"> <p>${element.name}</p> 
         <img src="${element.img}"></img>
         <p>Tipo: ${element.type}</p>
@@ -16,7 +16,6 @@ const imprimData = (data) => { //variable para manipular la data
 
     tarjetas.innerHTML =str
 }
-
 imprimData(data)
 // botonNombre.addEventListener("click", imprimData)
 
@@ -80,3 +79,4 @@ pokemonList.addEventListener("change", () => {
     //             </div>`
     //             };
     //         };
+
