@@ -55,3 +55,7 @@ body {
 #TextHour {
     font-size: .8em;
 }
+
+.oculto{
+    display:none
+}
