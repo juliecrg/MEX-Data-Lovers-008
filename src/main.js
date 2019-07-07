@@ -39,7 +39,7 @@ const pokemonList = document.getElementById("type-list")
 const selectPokemon = pokemonList.options[pokemonList.selectedIndex].value
 
 pokemonList.addEventListener("change", () => {
-    const result =data.filter(pokemon => pokemon.type == selectPokemon)
+    const result =data.filter(pokemon => pokemon.type[0] == selectPokemon)
     imprimData(result)
 } );
 
