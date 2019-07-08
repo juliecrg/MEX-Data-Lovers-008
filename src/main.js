@@ -25,22 +25,24 @@ const seccionNombre = document.getElementById("resultado-nombre")
 //filtrar por nombre
 
 const botonNombre = document.getElementById("boton-nombre")
-const pokemonName = document.getElementById("input-pokemon").value.toLowerCase();
+const pokemonName = document.getElementById("input-pokemon")
 
 
 botonNombre.addEventListener('click' , () => {
-    const result = data.filter(pokemon => pokemon.name.toLowerCase() == pokemonName)
-    imprimData(result)
+    let nameResult= "";
+    let textPokemon = pokemonName.value.toLowerCase();
+    nameResult = data.filter(pokemon => pokemon.name.toLowerCase() == textPokemon)
+    imprimData(nameResult)
 });
 
 //filtrar por tipo
 
 const pokemonList = document.getElementById("type-list")
-const selectPokemon = pokemonList.options[pokemonList.selectedIndex].value
 
 pokemonList.addEventListener("change", () => {
-    const result =data.filter(pokemon => pokemon.type[0] == selectPokemon)
-    imprimData(result)
+    let typePokemon = pokemonList.value;
+    let typeResult =data.filter(pokemon => pokemon.type[0] == typePokemon)
+    imprimData(typeResult)
 } );
 
 //ordenar de la a-z
@@ -80,50 +82,3 @@ botonZa.addEventListener("click", () => {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-        // const filtrarNombre = () => { //variable para filtrar por nombre
-    //     let nombrePokemon = inputNombre.value.toLowerCase();
-    //     for (let poke of data){
-    //         let dataPokemon = poke.name.toLowerCase();
-    //         console.log(dataPokemon)
-    //         if (dataPokemon.indexOf(nombrePokemon) !== -1){
-    //             str += 
-    //             `<div class = "PokemonBox"> <p>${} </p> 
-    //             <img src="${}"></img>
-    //             <p>Tipo: ${}</p>
-    //             <p>Caramelos: ${}</p>
-    //             <p>Hora: ${}</p>
-    //             </div>`
-    //             };
-    //         };
-
-
-
-
-// var slideIndex = 1;
-// showDivs(slideIndex);
-
-// function plusDivs(n) {
-//   showDivs(slideIndex += n);
-// }
-
-// function showDivs(n) {
-//   var i;
-//   var x = document.getElementsByClassName("mySlides");
-//   if (n > x.length) {slideIndex = 1}
-//   if (n < 1) {slideIndex = x.length}
-//   for (i = 0; i < x.length; i++) {
-//     x[i].style.display = "none";  
-//   }
-//   x[slideIndex-1].style.display = "block";  
-// }

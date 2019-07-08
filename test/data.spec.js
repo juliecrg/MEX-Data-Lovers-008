@@ -1,9 +1,9 @@
-require('../src/data.js');
+const data = require('../src/data.js');
 
 
-describe('example', () => {
-  it('is a function', () => {
-    expect(typeof example).toBe('function');
+describe('data', () => {
+  it('is an object', () => {
+    expect(typeof data).toBe('object');
   });
 
   it('returns `example`', () => {
