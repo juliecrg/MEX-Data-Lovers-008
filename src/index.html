@@ -4,64 +4,90 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- Segundo meta: La vista de compatibilidad le permite al usuario
-       o al navegador establecer el modo de compatibilidad, 
-       por defecto el navegador identifica la vista de compatibilidad
-        por medio de la versión del navegador establecida en el User Agent. -->
     <title>Hora Pokemon</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://use.typekit.net/qsv3ymq.css">
   </head>
-  <body>
 
 
-                <!-- Seccion imagen -->
-                    <section class= "first">
-                    <section class= "toallthesections"> <img src="pokeball.png" class= "imageP" ></section>
-                    </section>
-                    
-               <!-- Seccion Tipografia1 -->
-                    <section class= "toallthesections">
-                      <section class= "textOne"> HORA: <span id="datetime"></span> </section>
-                      <section class= "textOne"> Filtrar por: </section>
-                    </section>
-
-
-                <!-- Seccion Botones -->
-                <section class= "toallthesections">
-                    <section class= "Boton1"> 
-                        <p>Nombre del Pokemon:</p>
-                        <p><input type="text" id="input-pokemon"> </p>
-                        <p><button type="button" id="boton-nombre">BUSCAR</button></p> 
-                    </section>
-                    <section class= "Boton2"> <button id="ButtonB" class="btn" type="button"> A-Z </button> </section>
-                    <section  class="Boton3" style="width:200px;">
-                      
-                      <select id="type-list">
-                          <option value="Grass">Hierba</option>
-                          <option value="Poison">Veneno</option>
-                          <option value="Fire">Fuego</option>
-                          <option value="Flying">Volador</option>
-                          <option value="Water">Agua</option>
-                          <option value="Bug">Insecto</option>
-                          <option value="Normal">Normal</option>
-                          <option value="Ground">Tierra</option>
-                          <option value="Rock">Roca</option>
-                          <option value="Ice">Hielo</option>
-                          <option value="Electric">Electrico</option>
-                          <option value="Dragon">Dragon</option>
-                          <option value="Ghost">Fantasma</option>
-                          <option value="Psychic">Psíquico</option>
-                          <option value="Fighting">Peleador</option>
-                      </select>
-                    </section>
-                </section>
+    <body>
+      <select= "container">
+        <div class="row">
+               <div class="col-12 rojo">
+               <div> <img src="pokeball.png" class= "imageP"></div>
+               </div>
+               </div>
+                               
+        <div class= "row">
+               <div class="col-12 rojo">
+               <div > <span id="datetime" class= "textOne"> HORA:</span>
+               </div>
+               </div>
+               </div>
+                               
+       <div class="row">
+                <div class="col-2 verde">
+                <section class="hora"> <button class= "boton" id= "ButtonB" type= "button"> ¿Qué es hora Pokémon?</button></section>
+                </div>
+                               
+                               
+                <div class="col-2 azul">
+                  <select class="boton">
+                  <section> <button  id= "ButtonB" type= "button"> </button></section>
+                  <option value="Grass">Hierba</option>
+                  <option value="Poison">Veneno</option>
+                  <option value="Fire">Fuego</option>
+                  <option value="Flying">Volador</option>
+                  <option value="Water">Agua</option>
+                  <option value="Bug">Insecto</option>
+                  <option value="Normal">Normal</option>
+                  <option value="Ground">Tierra</option>
+                  <option value="Rock">Roca</option>
+                  <option value="Ice">Hielo</option>
+                  <option value="Electric">Electrico</option>
+                  <option value="Dragon">Dragon</option>
+                  <option value="Ghost">Fantasma</option>
+                  <option value="Psychic">Psíquico</option>
+                  <option value="Fighting">Peleador</option>
                 
-                  <section class= "boxcontainer">
-                  <section class="boxPokemon" id= "tarjetas-pokemon">                  
-                    </section>
-                  </section>
-
+              </select>
+                </div>
+                           
+                               
+                 <div class="col-2 verde">
+                    <select class="boton">
+                        <section> <button id= "ButtonB" type= "button"> </button></section>
+                        <option value="A-Z">A-Z</option>
+                        <option value="Z-A">Z-A</option>
+                    </select>
+                </div>
+                
+                <div class="col-2 verde">
+                  <section class="hora"> <button class= "boton" id= "ButtonB" type= "button"> Estadísticas</button></section>
+                </div>
+                             
+                  <div class="col-2 azul">
+                   <div class="hora"></div><p><input type="text" id="input-pokemon"> </p></li> 
+                   <p><button class= "boton" type="button" id="boton-nombre">BUSCAR</button></p></li>
+                   </div>
+                   </div>
+                           
+<!-- cierra row --> </div> 
+                           
+      <div class= "row">
+           <div class="col-3 azul">
+                
+               </div>
+                           
+       <div class="col-6 verde media">
+              <div class= "box" id= "tarjetas-pokemon"></div>
+               </div>
+                                            
+      <div class="col-3 verde">
+              </div>
+              </div>
+               </select>
+             
     <div id="root"></div>
     <!-- <script src="./data/injuries/injuries.js"></script> -->
      <script src="./data/pokemon/pokemon.js"></script> 
@@ -70,5 +96,6 @@
     <!-- <script src="./data/lol/lol.js"></script> -->
     <script src="data.js"></script>
     <script src="main.js"></script>
+  
   </body>
 </html>
