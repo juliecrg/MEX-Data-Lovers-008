@@ -57,7 +57,21 @@ botonAz.addEventListener("click", () => {
     })
     imprimData(result)
 });
-        
+
+//ordenar de la z-a
+
+const botonZa= document.getElementById("ButtonB1")
+
+botonZa.addEventListener("click", () => {
+    const result= data.sort((a,b)=>{
+        if (a.name.toLowerCase() > b.name.toLowerCase()
+        ) return -1;
+        if (a.name.toLowerCase() < b.name.toLowerCase()
+        ) return 1;
+        return 0
+    })
+    imprimData(result)
+});
 
 
 
