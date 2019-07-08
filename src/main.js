@@ -6,7 +6,7 @@ const tarjetas =document.getElementById("tarjetas-pokemon")
 const imprimData = (data) => { //variable para manipular la data
     let str = "";
     data.forEach(element =>{ //forEach sirve para recorrer los arreglos dentro de un objeto
-        str += `<div class = "PokemonBox"> <p>${element.name}</p> 
+        str += `<div class = "boxPokemon"> <p>${element.name}</p> 
         <img src="${element.img}"></img>
         <p>Tipo: ${element.type}</p>
         <p>Caramelos: ${element.candy_count} </p>
@@ -43,7 +43,20 @@ pokemonList.addEventListener("change", () => {
     imprimData(result)
 } );
 
+//ordenar de la a-z
 
+const botonAz= document.getElementById("ButtonB")
+
+botonAz.addEventListener("click", () => {
+    const result= data.sort((a,b)=>{
+        if (a.name.toLowerCase() < b.name.toLowerCase()
+        ) return -1;
+        if (a.name.toLowerCase() > b.name.toLowerCase()
+        ) return 1;
+        return 0
+    })
+    imprimData(result)
+});
         
 
 
