@@ -1,95 +1,66 @@
-body {
-    background-color: #BEFCF2;
-}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* background-color: #BEFCF2; */
+    font-family: Helvetica, sans-serif;
+  }
 
-/* H1 of the page */
 
-.toallthesections {
-    margin: auto;
-  /* width: 100%; */
-  height: auto;
-  margin-left: auto;
-     margin-right: auto;
-} 
-
-.first {
-    width: 100%;
-     max-width: 1280px; 
-     margin: 0px auto;
-     
-}
-
-.imageP {
-    height: 7%;
-     width: 7%;
-     display: block;
-     margin-left: auto;
-     margin-right: auto;
-  /* width: 40%; */
-}
-
-.textOne {
-    width: 100%;
-    height: auto;
-    color: #353535;
-    font-family: balboa-plus-fill, sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 1.4em;
-    background-color: whitesmoke;
-    margin: 15px 25px 50px;
-    width: 15%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    
-}
-
-.Boton1 {
-    width:25%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    
-}
-
-.Boton2 {
-    width:25%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    
-}
-
-.Boton3 {
-    width:25%;
-    height: auto;
-    margin-left: auto;
-     margin-right: auto;
-     text-align: center;
-}
-
-.btn {
+  .boton{
+    background-color: aqua;
     height: 10%;
-    border: none;
-    background-color: #BEFCF2;
+     border: none;
+     margin: 15px 25px 50px;
+    font-size: 1em;
+    font-weight: lighter;
+    cursor: pointer;
+    padding: 10%;
+  }
+  /* .hora {
+      background-color: aqua;
+      height: 10%;
+     border: none;
     margin: 15px 25px 50px;
     font-size: 1em;
     font-weight: lighter;
     cursor: pointer;
 
-    
-}
-.boxcontainer {
+  } */
+  .container{
+    width: 100%;
+    /* max-width: 1280px; */
+    margin: 0px auto;
+  }
+
+  .row{
+    margin: auto;
+    width: 100%;
+    height: auto;
+  }
+
+  .row:before, .row:after{
+    content:"";
+    display:table;
+  }
+  .row:after{
+    clear:both;
+  }
+  [class*= "col-" ]{
+    float: left;
+    min-height: 10px;
+   
+    padding: 12px;
+  }
+  
+  /* .boxcontainer {
     width: 50%;
     height: auto;
     margin-left: auto;
-   margin-right: auto;
-}
+    margin-right: auto;
+} */
 
-.boxPokemon {
+  .box {
     width:auto;
     height: auto;
     background-color: rgb(255, 255, 255);
@@ -106,19 +77,72 @@ body {
     margin-right: auto;
     text-align: center;
 }
+  .col-1{width: 8.333333333333332%;}
+  .col-2{width: 16.666666666666664%;}
+  .col-3{width: 25%;}
+  .col-4{width: 33.33333333333333%;}
+  .col-5{width: 41.66666666666667%;}
+  .col-6{width: 50%;}
+  .col-7{width: 58.333333333333336%;}
+  .col-8{width: 66.66666666666666%;}
+  .col-9{width: 75%;}
+  .col-10{width: 83.33333333333334%;}
+  .col-11{width: 91.66666666666666%;}
+  .col-12{width: 100%;}
+
+  .rojo{
+    height: 10vh;
+  }
+  .verde{
+    height: 20vh;
+  }
+  .azul{
+    height: 20vh;
+  }
+
+.imageP {
+     width: 5%;
+     display: block;
+     margin-left: auto;
+     margin-right: auto; 
+    }
+
+.textOne {
+    width: 100%;
+    height: auto;
+    color: #353535;
+    font-family: balboa-plus-fill, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.4em;
+    background-color: whitesmoke;
+    margin: 15px 25px 50px;
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
 
 
 
-.col-1{width: 8.333333333333332%;}
-.col-2{width: 16.666666666666664%;}
-.col-3{width: 25%;}
-.col-4{width: 33.33333333333333%;}
-.col-5{width: 41.66666666666667%;}
-.col-6{width: 50%;}
-.col-7{width: 58.333333333333336%;}
-.col-8{width: 66.66666666666666%;}
-.col-9{width: 75%;}
-.col-10{width: 83.33333333333334%;}
-.col-11{width: 91.66666666666666%;}
-.col-12{width: 100%;}
+/* .btn {
+    height: 10%;
+    border: none;
+    background-color: #BEFCF2;
+    margin: 15px 25px 50px;
+    font-size: 1em;
+    font-weight: lighter;
+    cursor: pointer;   
+} */
+
+
+
+
+ /* @media screen and (max-width: 778px){
+    .media{
+      width: 100%;
+      background: yellow;
+    } */
+
+
 
