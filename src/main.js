@@ -6,7 +6,7 @@ const tarjetas =document.getElementById("tarjetas-pokemon")
 const imprimData = (data) => { //variable para manipular la data
     let str = "";
     data.forEach(element =>{ //forEach sirve para recorrer los arreglos dentro de un objeto
-        str += `<div class = "boxPokemon"> <p>${element.name}</p> 
+        str += `<div class = "col-4 box"> <p>${element.name}</p> 
         <img src="${element.img}"></img>
         <p>Tipo: ${element.type}</p>
         <p>Caramelos: ${element.candy_count} </p>

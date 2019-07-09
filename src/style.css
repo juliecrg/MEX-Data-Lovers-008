@@ -138,11 +138,11 @@ body {
 
 
 
- /* @media screen and (max-width: 778px){
-    .media{
+ @media screen and (max-width: 778px){
+    .box{
       width: 100%;
-      background: yellow;
-    } */
+      background: yellow}
+    }
 
 
 
