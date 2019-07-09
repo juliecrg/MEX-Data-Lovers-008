@@ -31,7 +31,7 @@ const pokemonName = document.getElementById("input-pokemon")
 botonNombre.addEventListener('click' , () => {
     let nameResult= "";
     let textPokemon = pokemonName.value.toLowerCase();
-    nameResult = data.filter(pokemon => pokemon.name.toLowerCase() == textPokemon)
+    let nameResult = data.filter(pokemon => pokemon.name.toLowerCase() == textPokemon)
     imprimData(nameResult)
 });
 
