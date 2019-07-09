@@ -11,6 +11,7 @@ body {
 
   .one{
     /* background-color: whitesmoke; */
+    float: left;
   }
 
   .boton{
@@ -59,23 +60,23 @@ body {
   [class*= "col-" ]{
     float: left;
     min-height: 10px;
-   
     padding: 12px;
   }
 
 
   .box {
+    box-shadow: 15 px 15 px 15 px #666;
     width:auto;
     height: auto;
     font-family: Helvetica, sans-serif;
     box-lines: single;  
     font-weight: lighter;
-    margin-left: auto;
-    margin-right: auto;
+    
+    /* margin-left: auto;
+    margin-right: auto; */
     text-align: center;
     background-color: whitesmoke;
-    box-shadow: 0 px 1 px 15 px #666;
-    border-radius: 114 px;
+    border-radius: 50px 50px 50px 50px;  
 }
   .col-1{width: 8.333333333333332%;}
   .col-2{width: 16.666666666666664%;}
@@ -124,16 +125,11 @@ body {
 }
 
 
-
-/* .btn {
-    height: 10%;
-    border: none;
-    background-color: #BEFCF2;
-    margin: 15px 25px 50px;
-    font-size: 1em;
-    font-weight: lighter;
-    cursor: pointer;   
-} */
+/* @media screen and (max:width: 778px) {
+  .boxPokemon{
+    width: 100%;
+      background: yellow;
+    } */
 
 
 
