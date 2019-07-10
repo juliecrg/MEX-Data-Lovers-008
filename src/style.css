@@ -137,7 +137,13 @@ body {
  @media screen and (max-width: 778px){
     .box{
       width: 100%;
-      background: yellow}
+      }
+    .verde{
+      width: 100%;
+    }
+    .azul{
+      width: 100%;
+    }
     }
 
 
