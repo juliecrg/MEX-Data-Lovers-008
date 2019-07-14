@@ -14,8 +14,13 @@ body {
     float: left;
   }
 
+  .menubutton{
+    
+  
+  }
+
   .boton{
-    background-color: whitesmoke;
+    background:#BEFCF2;
     height: 10%;
      border: none;
      margin: 15px 25px 50px;
@@ -26,22 +31,6 @@ body {
     content: normal;
     border-radius: 114px;
     align-content: center;
-  }
-  /* .hora {
-      background-color: aqua;
-      height: 10%;
-     border: none;
-    margin: 15px 25px 50px;
-    font-size: 1em;
-    font-weight: lighter;
-    cursor: pointer;
-
-  } */
-  .container{
-    width: 100%;
-    /* max-width: 1280px; */
-    margin: 0px auto;
-    /* background-color: aquamarine; */
   }
 
   .row{
@@ -64,21 +53,6 @@ body {
   }
 
 
-  .box {
-    box-shadow: 15 px 15 px 15 px #666;
-    width:auto;
-    height: auto;
-    font-family: Helvetica, sans-serif;
-    box-lines: single;  
-    font-weight: lighter;
-    
-    /* margin-left: auto;
-    margin-right: auto; */
-    text-align: center;
-    background-color: whitesmoke;
-    border-radius: 50px 50px 50px 50px;  
-    
-}
   .col-1{width: 8.333333333333332%;}
   .col-2{width: 16.666666666666664%;}
   .col-3{width: 25%;}
@@ -92,21 +66,15 @@ body {
   .col-11{width: 91.66666666666666%;}
   .col-12{width: 100%;}
 
-  .rojo{
-    height: 10vh;
-  }
-  .verde{
-    height: 20vh;
-  }
-  .azul{
-    height: 20vh;
-  }
+.image {
+  text-align:center
+}
 
 .imageP {
-     width: 5%;
-     display: block;
-     margin-left: auto;
-     margin-right: auto; 
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align:center;
     }
 
 .textOne {
@@ -124,6 +92,7 @@ body {
     margin-right: auto;
 }
 
+
 .p1{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 80%;
@@ -138,31 +107,95 @@ body {
 
 }
 
-@media screen and (max-width: 778px){
-  .box{
-    width: 100;
-  }
-  .verde {
-    width: 100%;
-  }
-  .azul {
-    width: 100%;
-  }
+.box {
+    /* box-shadow: 15 px 15 px 130 px #666; */
+    font-family: Helvetica, sans-serif;
+    box-lines: single;  
+    font-weight: lighter; 
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 70px 70px 70px 70px;  
+    /* position: absolute; */
+    top: auto;
+     left: auto;
+     width: 30em;
+     height: 20em;
+    
 }
-/* @media screen and (max:width: 778px) {
-  .boxPokemon{
-    width: 100%;
-      background: yellow;
-    } */
+
+/* div.scrollmenu {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
+}
+ */
 
 
 
 
- /* @media screen and (max-width: 778px){
-    .media{
+ @media screen and (max-width: 778px){
+    .box{
       width: 100%;
-      background: yellow;
-    } */
-
-
-
+      }
+    .menubutton{
+      width: 100%;
+    }
+    }
+    
+    .wrap{
+      width: 90%;
+      max-width: 1000px;
+      
+     }
+     
+     .widget{
+      width: 40%;
+      margin: 2em;
+      
+      /*margin:32px;*/
+     }
+     
+     .widget p {
+      display: inline-block;
+      line-height: 1em;
+      
+     }
+     
+     .fecha {
+      font-family: balboa-plus-fill, sans-serif;
+      text-align: center;
+      font-size: auto;
+      margin-bottom: 5px;
+      background: floralwhite;
+      padding: 20px;
+      width: 100%;
+    
+     }
+     
+     .reloj{
+      font-family: balboa-plus-fill, sans-serif;
+      width: 100%;
+      padding: 20px;
+      font-size: auto;
+      text-align: center;
+      background: floralwhite;
+      font-weight: bolder;
+   
+     }
+     
+     .reloj .caja-segundos{
+      display: inline-block;
+     
+      
+     }
+     
+     .reloj .segundos, .reloj .ampm{
+      font-size: auto;
+      display: block;
+     }

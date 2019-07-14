@@ -11,89 +11,147 @@
     <body>
       <select= "container">
         <div class="row">
-               <div class="col-12 rojo">
+            <div class="col-3">
+              </div>
+               <div class="col-6 image">              
                <div> <img src="pokeball.png" class= "imageP"></div>
                </div>
-               </div>
-                               
-        <div class= "row">
-               <div class="col-12 rojo">
-               <div > <span id="datetime" class= "textOne"> HORA:</span>
-               </div>
-               </div>
-               </div>
-                               
-       <div class="row one">
-                <div class="col-2 verde">
-                <section class="hora"> <button class= "boton" id= "Information" type= "button"> ¿Qué es hora Pokémon?</button></section>
-                </div>
-                               
-                               
-                <div class="col-2 azul">
-                  <select class="boton one">
-                 <button  id= "ButtonB" type= "button"> </button>
-                  <option value="Grass">Hierba</option>
-                  <option value="Poison">Veneno</option>
-                  <option value="Fire">Fuego</option>
-                  <option value="Flying">Volador</option>
-                  <option value="Water">Agua</option>
-                  <option value="Bug">Insecto</option>
-                  <option value="Normal">Normal</option>
-                  <option value="Ground">Tierra</option>
-                  <option value="Rock">Roca</option>
-                  <option value="Ice">Hielo</option>
-                  <option value="Electric">Electrico</option>
-                  <option value="Dragon">Dragon</option>
-                  <option value="Ghost">Fantasma</option>
-                  <option value="Psychic">Psíquico</option>
-                  <option value="Fighting">Peleador</option>
-                
-              </select>
-                </div>
-                           
-                               
-                 <div class="col-2 verde">
 
-                    <select class="boton">
-                        <button id= "ButtonB" type= "button"> </button>
+              
+              
+               <div class="row one">
 
-                        <option value="A-Z">A-Z</option>
-                        <option value="Z-A">Z-A</option>
-                    </select>
-                </div>
+                  <div class="col-2 menubutton">
+                    <center>
+                 <button class= "boton" id= "Information" type= "button"> ¿Qué es hora Pokémon?</button>
+                </center>
+                  </div>
+                                 
+                              <center>
+                  <div class="col-2">                   
+                    <select class="boton" id ="type-list">   
+                    <option value="Grass">Hierba</option>
+                    <option value="Poison">Veneno</option>
+                    <option value="Fire">Fuego</option>
+                    <option value="Flying">Volador</option>
+                    <option value="Water">Agua</option>
+                    <option value="Bug">Insecto</option>
+                    <option value="Normal">Normal</option>
+                    <option value="Ground">Tierra</option>
+                    <option value="Rock">Roca</option>
+                    <option value="Ice">Hielo</option>
+                    <option value="Electric">Electrico</option>
+                    <option value="Dragon">Dragon</option>
+                    <option value="Ghost">Fantasma</option>
+                    <option value="Psychic">Psíquico</option>
+                    <option value="Fighting">Peleador</option> 
+                  </center>
+                </select>
+            
+                  </div>
                 
-                <div class="col-2 verde">
-                  <section class="hora"> <button class= "boton" id= "ButtonB" type= "button"> Estadísticas</button></section>
-                </div>
                              
-                  <div class="col-3 azul">
-                   <div class="hora"></div><p><input type="text" placeholder= "Escribe el nombre"id="input-pokemon"> </p></li> 
-                   <p><button class= "boton" type="button" id="boton-nombre">BUSCAR</button></p></li>
-                   </div>
-                   </div>
-                           
-<!-- cierra row --> </div> 
+                                 
+                   <div class="col-2 menubutton">
+                    <center>
+                      <select class="boton " id ="order-list">
+                     <option value="A-Z">A-Z</option>
+                          <option value="Z-A">Z-A</option>
+                      </select>
+                    </center>
+                  </div>
+                  
+                  <div class="col-2 menubutton">
+                      <center>
+                    <section class="hora"> <button class= "boton" id= "ButtonB" type= "button"> Estadísticas</button></section>
+                        </center>
+                  </div>
+  
+                  <div class="col-2 menubutton">
+                    <center>
+                     <div class="hora"></div><p><input type="text" placeholder= "Escribe el nombre"id="input-pokemon"> <button class= "boton" type="button" id="boton-nombre">Buscar</button></p>
+                     </div>
+                    </center>
+                     </div>
+                             
+  <!-- cierra row --> </div> 
+              
+              
+              
+              
+              
+              
+               <div class="col-3 ">         
+                </div>
+               </div>                            
+        <div class= "row">   
+
+          <center>
+           <div class="wrap col-12">
+              <div class="widget">
+               <div class="fecha">
+                <p id="diaSemana" class="diaSemana"></p>
+                <p id="dia" class="dia"></p>
+                <p id="mes" class="mes"></p>
+                <p id="year" class="year"></p>
+               </div>
+              <div class="reloj">      
+                <p id="horas" class="horas"></p>
+                <p>:</p>
+                <p id="minutos" class="minutos"></p>
+                <p>:</p>
+                 
+               <div class="caja-segundos">
+                <p id="ampm" class="ampm"></p>
+                <p id="segundos" class="segundos"></p>
+               </div>
+               </div>
+               </div>
+                </div>
+              </div>
+              
+            </center>
+              
+                
+             </div>
+
+            
+          
+               
+                               
+       
                            
       <div class= "row">
-           <div class="col-3 azul">
+           <!-- <div class="col-3 ">
                 
-               </div>
+               </div> -->
                            
-       <div class="col-6 verde media">
-              <div class= "box" id= "tarjetas-pokemon"></div>
+      
+               <!-- <div class="col-6 scrollmenu">
+               <div class=" verde media">  
+              <div class="contenedor">
+                  <div class= "box" id= "tarjetas-pokemon"></div>
+              </div>
+              </div>
+               </div> -->
+              
+               <div class="col-12">
+                 <!-- <div class="scrollmenu"> -->
+              <div class= "box" id= "tarjetas-pokemon"> </div>
+              <!-- </div> -->
                </div>
-                                            
-      <div class="col-3 verde">
+
+     
+     
+               <!-- <div class="col-3">
               </div>
               </div>
-               </select>
+               </select> -->
              
     <div id="root"></div>
-    <!-- <script src="./data/injuries/injuries.js"></script> -->
+   
      <script src="./data/pokemon/pokemon.js"></script> 
-    <!-- <script src="./data/steam/steam.js"></script> -->
-    <!-- <script src="./data/worldbank/worldbank.js"></script> -->
-    <!-- <script src="./data/lol/lol.js"></script> -->
+    
     <script src="data.js"></script>
     <script src="main.js"></script>
   

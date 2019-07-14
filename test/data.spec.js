@@ -1,7 +1,7 @@
 const data = require('../src/data.js');
 
 
-describe('data', () => {
+describe('datafilterData', () => {
   it('is an object', () => {
     expect(typeof data).toBe('object');
   });
@@ -10,3 +10,4 @@ describe('data', () => {
     expect(example()).toBe('example');
   });
 });
+
