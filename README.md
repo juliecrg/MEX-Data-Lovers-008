@@ -37,15 +37,28 @@ El producto está pensado que el usuario pueda acceder a la plataforma en el mom
 
 ### Historia de usuario 
 
-1: Filtrar por nombre. 
+
+
+1.- Filtrar por nombre
 
 El usuario quiere encontrar la información de un Pokémon en específico. Sabe el nombre del Pokémon y no quiere ver todas las tarjetas para encontrar la información, así que, necesita de un buscador donde pueda teclear el nombre. El usuario va a buscar en minúsculas el nombre y espera obtener la información del Pokémon que él ha tecleado. 
 
 2.- Filtrar por tipo
 
-El usuario va a tener la opción de filtrar por tipo con un menu tipo select, donde tienen los 18 tipos pokemon para escoger, seleccionan uno y el producto  les muestra todos lo pokemones que coinciden con ese tipo en la parte de abajo con el mismo formato de tarjetas.
+El usuario va a tener la opción de filtrar por tipo con un menu tipo select, donde tienen los 18 tipos Pokémon para escoger, seleccionan uno y el producto  les muestra todos lo pokemones que coinciden con ese tipo en la parte de abajo con el mismo formato de tarjetas.
+
+3.- Ordenar de la A-Z, Z-A
+
+El usuario va a tener la opción de ordenar la información, para visualizar la data. Sólo tendrá dos opciones para que piense inmediatamente en la solución del problema que quiere resolver. Por ejemplo: no recuerda el nombre específico de un Pokémon que quiere buscar.
 
 
+#### Listado de problemas que detectaste a través de tests de usabilidad
+
+1. Mejorar la palabra "estadística".
+2. Cambiar la visualización de las cajas (de forma vertical a otras).
+3. Botón de buscar junto al input. 
+
+     
 
 ## Índice
 
@@ -438,23 +451,23 @@ Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
 
 ## Checklist
 
-- [ ] Usa VanillaJS.
-- [ ] No hace uso de `this`.
-- [ ] Pasa linter (`npm pretest`)
-- [ ] Pasa tests (`npm test`)
-- [ ] Pruebas unitarias cubren un mínimo del 70% de statements, functions y
+- [x] Usa VanillaJS.
+- [x] No hace uso de `this`.
+- [Doing] Pasa linter (`npm pretest`)
+- [Doing] Pasa tests (`npm test`)
+- [Doing] Pruebas unitarias cubren un mínimo del 70% de statements, functions y
       lines y branches.
-- [ ] Incluye _Definición del producto_ clara e informativa en `README.md`.
-- [ ] Incluye historias de usuario en `README.md`.
-- [ ] Incluye _sketch_ de la solución (prototipo de baja fidelidad) en
+- [x] Incluye _Definición del producto_ clara e informativa en `README.md`.
+- [x] Incluye historias de usuario en `README.md`.
+- [x] Incluye _sketch_ de la solución (prototipo de baja fidelidad) en
       `README.md`.
-- [ ] Incluye _Diseño de la Interfaz de Usuario_ (prototipo de alta fidelidad)
+- [x] Incluye _Diseño de la Interfaz de Usuario_ (prototipo de alta fidelidad)
       en `README.md`.
-- [ ] Incluye el listado de problemas que detectaste a través de tests de
+- [x] Incluye el listado de problemas que detectaste a través de tests de
       usabilidad en el `README.md`.
-- [ ] UI: Muestra lista y/o tabla con datos y/o indicadores.
-- [ ] UI: Permite ordenar data por uno o más campos (asc y desc).
-- [ ] UI: Permite filtrar data en base a una condición.
+- [x] UI: Muestra lista y/o tabla con datos y/o indicadores.
+- [x] UI: Permite ordenar data por uno o más campos (asc y desc).
+- [x] UI: Permite filtrar data en base a una condición.
 
 ## Checklist (Hacker Edition)
 
